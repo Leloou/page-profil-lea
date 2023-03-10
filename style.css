@@ -1,0 +1,88 @@
+body { 
+  background-color: #F7F9FC;
+  color: #575F7D;
+  font-family:'Ubuntu', sans-serif;
+  font-size: 17px ;
+  font-weight: lighter ;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+h1, h2, h3 {
+  font-family: 'roboto', sans-serif;
+}
+h1 {
+  color: #F9429E;
+  font-size: 32px;
+  font-weight: 900;
+}
+h2 {
+    color: #7A2489;
+    font-size: 20px;
+    font-weight: lighter;
+    font-weight: 500;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 20%;
+  height: auto;
+  box-shadow: 0px 10px 20px rgba(252,64,153,0.2);
+}
+
+.btn-pink {
+  background-color: #F9429E;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  display: inline-block;
+  margin: 10px 0;
+}
+
+.btn-pink:hover {
+  color: #F9429E;
+  background-color: beige;
+}
+
+.container {
+  margin: 10px auto;
+  width: 700px;
+}
+  
+.card {
+  background-color: #aed6f1;
+  border-radius: 15px;
+  box-shadow: 0px 10px 20px rgba(252,64,153,0.2);
+  padding: 5px 50px 5px 50px;
+  text-align: center;
+  margin-top: 30px;
+  border: 2px solid rgb(252,64,153);
+}
+
+ul{
+  text-align: left;
+}
+
+.social{
+  width: 10%;
+  height: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width:600px) {
+  .card{
+      grid-template-columns: 1fr;
+  }
+  .social{
+      grid-template-columns: 1fr; 
+  }
+  .container{
+      width: 400px;
+  }
+}   
